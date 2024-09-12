@@ -21,7 +21,7 @@ header{
 
 .menu{
     background-color: #1F2937;
-    color: #fff;
+    color: #ffffff;
     height: 60px;
 }
 
@@ -55,7 +55,7 @@ header{
 }
 
 .menu__link{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     padding: 0 30px;
     display: flex;
@@ -84,6 +84,7 @@ header{
     width: max-content;
     transform: translateY(100%);
     background-color: #111827;
+    border-radius: 25px;
 }
 
 .menu__link--inside{
@@ -127,7 +128,6 @@ header{
         background-color: var(--background);
     }
 
-
     .menu__links{
         position: fixed;
         max-width: 400px;
@@ -135,7 +135,7 @@ header{
         top: 70px;
         bottom: 0;
         right: 0;
-        background-color: #000;
+        background-color: #000000;
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;

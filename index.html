@@ -1,41 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Proyecto de Prueba</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
-
 <body>
-    <header id="header">
-        <nav id="menu__nav" class="menu__nav">
-            <div class="nav__img">
-                <img src="" alt="Imagen de prueba" srcset="">
+    <header>
+
+    
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">WELCOME</h1>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Home</a>
+                </li>
+    
+                <li class="menu__item menu__item--show">
+                    <a href="#" class="menu__link">About <img src="assets/image/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">About 1</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">About 2</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">About 3</a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li class="menu__item  menu__item--show">
+                    <a href="#" class="menu__link">Projects  <img src="assets/image/arrow.svg" class="menu__arrow"></a>
+    
+                    <ul class="menu__nesting">
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Projects 1</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Projects 2</a>
+                        </li>
+                        <li class="menu__inside">
+                            <a href="#" class="menu__link menu__link--inside">Projects 3</a>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contact</a>
+                </li>
+    
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="assets/image/menu.svg" class="menu__img">
             </div>
-
-            <div class="sec__nav">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="">
-
-    </div>
-
-    <footer id="footer">
-
-
-        <div class="copyright">
-            <h4>Derechos de Autor | 2024</h4>
-        </div>
-    </footer>
-    <script src="assets/js/script.js"></script>
+        </section>
+    </nav>
+    
+</header>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

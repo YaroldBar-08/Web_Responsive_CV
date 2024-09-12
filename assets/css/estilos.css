@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -8,12 +8,12 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(255, 249, 241);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 246, 234);
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(92, 92, 92, 0), rgb(255, 249, 241)), url(../image/background_2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(92, 92, 92, 0), rgb(255, 246, 234)), url(../image/background_2.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -83,8 +83,10 @@ header{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #111827;
-    border-radius: 25px;
+    background-color: #1F2937;
+    /*background-color: #111827;*/
+    /*border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;*/
 }
 
 .menu__link--inside{
@@ -94,6 +96,8 @@ header{
 .menu__link--inside:hover{
     background-color: #374151;
 }
+
+
 
 .menu__hamburguer{
     height: 100%;
@@ -172,4 +176,15 @@ header{
         margin-left: auto;
         border-left: 1px solid #798499;
     }
+}
+
+.container__section{
+    padding: 80px 0 80px 0;
+    background-color: rgb(255, 246, 234);
+}
+
+.title{
+    text-align: center;
+    font-size: 34px;
+    padding: 20px 0 20px 0;
 }

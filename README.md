@@ -6,4 +6,5 @@ Esta es una práctica de desarrollo de una página web, por el momento será tip
 
 Unos pocos detalles, en VScode, estoy usando una distribución de files, todo estos cambios están siendo registrados en GitHub y tiene su propio enlace web, es algo nuevo y quisiera usar frameworks, que se yo react, vue, angular, estudiar el UX/UI para esto, siento que será muy interesante.
 
-Esto es todo.
+Unos pocos detalles, en VScode, estoy usando una distribución de files, es algo nuevo y quisiera usar
+frameworks, que se yo react, vue, angular, estudiar el UX/UI para esto, siento que será muy interesante.

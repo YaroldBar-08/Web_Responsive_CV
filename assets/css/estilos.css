@@ -19,7 +19,7 @@ header{
 }
 
 .menu{
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgb(31, 41, 55);
     color: #fff;
     height: 70px;
 }
@@ -63,7 +63,7 @@ header{
 }
 
 .menu__link:hover{
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(17, 24, 39);
 }
 
 .menu__arrow{
@@ -82,7 +82,7 @@ header{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: rgba(51, 51, 51, 0.9);
+    background-color: rgba(17, 24, 39);
 }
 
 .menu__link--inside{
@@ -90,7 +90,7 @@ header{
 }
 
 .menu__link--inside:hover{
-    background-color: #798499;
+    background-color: rgb(55, 65, 81);
 }
 
 .menu__hamburguer{

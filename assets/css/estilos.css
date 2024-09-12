@@ -13,6 +13,7 @@ body{
 
 header{
     background-image: url(../image/background_2.jpg);
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
@@ -62,7 +63,7 @@ header{
 }
 
 .menu__link:hover{
-    background-color: #5e7094;
+    background-color: rgba(51, 51, 51, 0.7);
 }
 
 .menu__arrow{
@@ -81,7 +82,7 @@ header{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #000;
+    background-color: rgba(51, 51, 51, 0.9);
 }
 
 .menu__link--inside{

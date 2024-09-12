@@ -20,7 +20,7 @@ header{
 }
 
 .menu{
-    background-color: rgb(31, 41, 55);
+    background-color: #1A202C;
     color: #fff;
     height: 70px;
 }
@@ -57,15 +57,16 @@ header{
 .menu__link{
     color: #fff;
     text-decoration: none;
-    padding: 0 40px;
+    padding: 0 30px;
     display: flex;
     height: 100%;
     align-items: center;
 }
 
 .menu__link:hover{
-    background-color: rgba(17, 24, 39);
+    background-color: #5e7094;
 }
+
 
 .menu__arrow{
     transform: var(--transform);
@@ -83,7 +84,7 @@ header{
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: rgba(17, 24, 39);
+    background-color: #000;
 }
 
 .menu__link--inside{
@@ -91,7 +92,7 @@ header{
 }
 
 .menu__link--inside:hover{
-    background-color: rgb(55, 65, 81);
+    background-color: #798499;
 }
 
 .menu__hamburguer{

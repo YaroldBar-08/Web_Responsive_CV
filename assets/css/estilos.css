@@ -176,13 +176,31 @@ header{
     }
 }
 
-.container__section{
+.prin__section{
     padding: 80px 0 80px 0;
-    background-color: rgb(255, 246, 234);
+}
+
+.container__inf{
+    width: 100%;
 }
 
 .title{
     text-align: center;
     font-size: 34px;
     padding: 20px 0 20px 0;
+}
+
+.container__aside{
+    width: 100%;
+    justify-content: center;
+}
+
+.content__aside{
+    width: 100%;
+
+    display: flex;
+}
+.asd_gen{
+    width: 40%;
+    background-color: aqua;
 }
